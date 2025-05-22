@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover talented artists on ArtAffinity - Browse and connect with independent artists from around the world.">
+    <title>Artists | ArtAffinity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="product-name">
+                <img
+                  src="ArtAffinity-logo.svg"
+                  alt="ArtAffinity Logo SVG"
+                  style="height: 48px; background: none; margin-left: 0; margin-right: 12px;"
+                />
+              </div>
+            
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="artists.html">Artists</a>
+                <a href="community.html">Community</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Join as Artist</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-header-row">
+                <div class="hero-content">
+                    <h1>Discover Artists</h1>
+                    <p>Connect with talented independent artists from around the world</p>
+                </div>
+                <section class="cta-section card-cta">
+                    <h2>Are You an Artist?</h2>
+                    <p>Join our community and showcase your work to art lovers worldwide</p>
+                    <button class="btn-primary">Start Your Journey</button>
+                </section>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <div class="artists-filters">
+                <div class="filter-group">
+                    <label for="category">Category</label>
+                    <select id="category" class="filter-select">
+                        <option value="">All Categories</option>
+                        <option value="painting">Painting</option>
+                        <option value="photography">Photography</option>
+                        <option value="digital">Digital Art</option>
+                        <option value="sculpture">Sculpture</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="location">Location</label>
+                    <select id="location" class="filter-select">
+                        <option value="">All Locations</option>
+                        <option value="north-america">North America</option>
+                        <option value="europe">Europe</option>
+                        <option value="asia">Asia</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort">Sort By</label>
+                    <select id="sort" class="filter-select">
+                        <option value="popular">Most Popular</option>
+                        <option value="recent">Recently Added</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="artists-grid">
+                <!-- Artist cards will be dynamically populated -->
+            </div>
+
+            <div class="pagination">
+                <button class="btn-secondary">Previous</button>
+                <span class="page-numbers">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span>...</span>
+                    <a href="#">10</a>
+                </span>
+                <button class="btn-secondary">Next</button>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ArtAffinity</h3>
+                <p>Empowering artists, inspiring collectors</p>
+            </div>
+            <div class="footer-section">
+                <h4>For Artists</h4>
+                <ul>
+                    <li><a href="#sell">Sell Your Art</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>For Collectors</h4>
+                <ul>
+                    <li><a href="#discover">Discover Art</a></li>
+                    <li><a href="#shipping">Shipping Info</a></li>
+                    <li><a href="#returns">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ArtAffinity. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
