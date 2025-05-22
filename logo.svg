@@ -1,0 +1,25 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- מסגרת עגולה דקה ועדינה -->
+  <ellipse cx="150" cy="150" rx="140" ry="140" fill="none" stroke="#222222" stroke-width="2" opacity="0.5" />
+
+  <!-- גרדיאנט לטקסט הראשי (שחור בלבד) -->
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#222222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- טקסט ראשי עם פונט מעוגל וגרדיאנט שחור -->
+  <text x="50%" y="180" font-family="'Quicksand', 'Nunito', 'Poppins', Arial, sans-serif" font-size="36" fill="url(#mainGradient)" text-anchor="middle" font-weight="bold" letter-spacing="2">
+    ARTAFFINITY
+  </text>
+
+  <!-- קו דק מתחת לטקסט הראשי -->
+  <rect x="85" y="188" width="130" height="2" fill="#222222" rx="1" opacity="0.7" />
+
+  <!-- טקסט משני -->
+  <text x="50%" y="205" font-family="'Quicksand', 'Nunito', 'Poppins', Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" opacity="0.8">
+    Your Gateway to Global Artistry
+  </text>
+</svg>
